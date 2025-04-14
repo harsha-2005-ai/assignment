@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>HTML FORM</title>
+        <style>
+            body{
+                border-style: inherit;
+                border-width: 300px;
+                margin: 100px;
+                background-color: beige;
+            }
+            .contact-form{
+                max-width: 350px;
+                margin: auto;
+                border-style: double;
+                border-color: black;
+                border-radius: 50px;
+                box-sizing: border-box;
+                background: hsl(62, 54%, 71%);
+                padding: 20px;
+            }
+            .contact-form h1{
+                text-align: center;
+                color: black;
+            }
+            input[type=submit] :hover{
+                background: #000;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <label for="name"> Your name</label>
+                <input type="text"name ="fullname" placeholder="Your Name..">
+                <label for="email"> your Email</label>
+                <input type="text"name ="email" placeholder="Your Email..">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
